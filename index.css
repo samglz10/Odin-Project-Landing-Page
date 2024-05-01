@@ -1,5 +1,10 @@
+
+
 html{
     height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 body {
@@ -12,33 +17,80 @@ body {
 .header-logo{
     font-size: 24px;
     color:#f9faf8;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 .nav-bar{
+    display: flex;
+    justify-content: space-between;
     height: 5%;
     text-align: center;
     color: antiquewhite;
     background-color: #1f2937;
     font-size: 18px;
+    
 }
 .nav-links{
     font-size: 18px;
     color: #e5e7eb;
+    margin: auto;
 }
 .main-header{
+    display: flex;
+    justify-content: center;
     color: antiquewhite;
     height: 25%;
     background-color: #1f2937;
+    padding: 25px;
+}
+.website-desc{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin:auto;
+    
+}
+.website-desc >*{
+  
+    padding: 5px 0;;
 }
 .random-information{
+    display: flex;
+    flex-direction: column;
     height: 25%;
+    text-align: center;
+}
+.photo-grid{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+}
+.photo{
+    height: 100px;
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 7.5px;;
 }
 .quote{
     height: 25%;
     background-color: #e5e7eb;
 }
-
 .call-to-action{
     height: 25%;
+}
+
+#main-photo{
+    margin: 0;
+}
+
+button{
+    height:100%;
+    width:25%;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
 }
 
 footer{
@@ -50,4 +102,5 @@ footer{
 p{
     font-size: 48px;
     font-weight: 700;
+    margin:0;
 }
