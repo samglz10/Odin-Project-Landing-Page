@@ -9,12 +9,45 @@ body {
     flex-direction: column;
     margin:0;
 }
+.header-logo{
+    font-size: 24px;
+    color:#f9faf8;
+}
 .nav-bar{
-    height: 2.5%;
+    height: 5%;
     text-align: center;
     color: antiquewhite;
     background-color: #1f2937;
+    font-size: 18px;
+}
+.nav-links{
+    font-size: 18px;
+    color: #e5e7eb;
 }
 .main-header{
-    height: 20%;
+    color: antiquewhite;
+    height: 25%;
+    background-color: #1f2937;
+}
+.random-information{
+    height: 25%;
+}
+.quote{
+    height: 25%;
+    background-color: #e5e7eb;
+}
+
+.call-to-action{
+    height: 25%;
+}
+
+footer{
+    height: 5%;
+    color: antiquewhite;
+    background-color: #1f2937;
+}
+
+p{
+    font-size: 48px;
+    font-weight: 700;
 }
