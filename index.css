@@ -1,0 +1,20 @@
+html{
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+.nav-bar{
+    height: 2.5%;
+    text-align: center;
+    color: antiquewhite;
+    background-color: #1f2937;
+}
+.main-header{
+    height: 20%;
+}
