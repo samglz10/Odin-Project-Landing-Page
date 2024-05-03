@@ -1,7 +1,7 @@
 
 
 html{
-    height: 120%;
+    height: 150%;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -38,11 +38,12 @@ body {
 }
 .main-header{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     color: antiquewhite;
-    height: 25%;
+    height: 30%;
     background-color: #1f2937;
     padding: 25px;
+    margin: 0;
 }
 .website-desc{
     display: flex;
@@ -58,14 +59,15 @@ body {
 .random-information{
     display: flex;
     justify-content: center;
-    height: 25%;
+    height: 30%;
     text-align: center;
     flex-direction: column;
 }
 #photo-grid-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     
 
 }
@@ -93,6 +95,7 @@ body {
 .call-to-action{
     height: 25%;
     display: flex;
+
 }
 .call-to-action-container{
     display: flex;
@@ -111,11 +114,16 @@ body {
 .call-to-action-message{
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: auto;
 }
 
 #main-photo{
-    margin: 0;
+    margin: auto;
+    height: 50%;
+}
+#logo{
+    height: 10%;
+    width: auto;
 }
 
 a {
